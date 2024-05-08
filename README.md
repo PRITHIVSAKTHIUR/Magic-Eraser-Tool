@@ -1,6 +1,6 @@
 ---
 title: Magic Eraser Tool
-emoji: 👀
+emoji: ✏️📰
 colorFrom: green
 colorTo: pink
 sdk: streamlit
