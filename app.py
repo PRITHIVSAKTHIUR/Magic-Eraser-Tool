@@ -39,7 +39,7 @@ if 'reuse_image' not in st.session_state:
 def set_image(img):
     st.session_state.reuse_image = img
 
-st.title("AI Photo Object Removal")
+st.title("Magic-Eraser")
 
 st.image(open("assets/demo.png", "rb").read())
 
