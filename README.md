@@ -26,7 +26,7 @@ license: creativeml-openrail-m
 
 ![alt text](assets/1.png)
 
-📰Proceesing by Erase
+📰Processing by Eraser
 
 ![alt text](assets/2.png)
 
