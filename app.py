@@ -46,7 +46,7 @@ def set_image(img):
 
 st.title("AI Photo Object Removal")
 
-st.image(open("assets/demo.png", "rb").read())
+st.image(open("assets/demo.gif", "rb").read())
 
 st.markdown(
     """
