@@ -1,6 +1,3 @@
-# App code based on: https://github.com/petergro-hub/ComicInpainting
-# Model based on: https://github.com/saic-mdal/lama
-
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -32,8 +29,6 @@ def image_download_button(pil_image, filename: str, fmt: str, label="Download"):
         mime=mime,
     )
 
-
-
 if "button_id" not in st.session_state:
     st.session_state["button_id"] = ""
 if "color_to_label" not in st.session_state:
@@ -63,7 +58,7 @@ if uploaded_file is not None:
         bytes_data = uploaded_file.getvalue()
         img_input = Image.open(BytesIO(bytes_data)).convert("RGBA")
 
-    # Resize the image while maintaining aspect ratio
+ #resize
     max_size = 2000
     img_width, img_height = img_input.size
     if img_width > max_size or img_height > max_size:
@@ -79,12 +74,10 @@ if uploaded_file is not None:
 
     st.write("**Now draw (brush) the part of image that you want to remove.**")
     
-    # Canvas size logic
     canvas_bg = deepcopy(img_input)
     aspect_ratio = canvas_bg.width / canvas_bg.height
     streamlit_width = 720
     
-    # Max width is 720. Resize the height to maintain its aspectratio.
     if canvas_bg.width > streamlit_width:
         canvas_bg = canvas_bg.resize((streamlit_width, int(streamlit_width / aspect_ratio)))
     
