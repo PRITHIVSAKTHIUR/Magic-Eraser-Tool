@@ -41,11 +41,11 @@ def set_image(img):
 
 st.title("AI Photo Object Removal")
 
-st.image(open("assets/demo.gif", "rb").read())
+st.image(open("assets/demo.png", "rb").read())
 
 st.markdown(
     """
-    You don't have to worry about mastering photo editing techniques to remove an object from your photo. ** Simply mark over the areas you want to erase, and our AI will take care of the rest. **
+    You don't have to worry about mastering photo editing techniques to remove an object from your photo. **Simply mark over the areas you want to erase, and our AI will take care of the rest.**
     """
 )
 uploaded_file = st.file_uploader("Choose image", accept_multiple_files=False, type=["png", "jpg", "jpeg"])
