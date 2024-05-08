@@ -1,8 +1,8 @@
 ---
 title: Magic Eraser Tool
 emoji: ✏️📰
-colorFrom: green
-colorTo: pink
+colorFrom: indigo
+colorTo: yellow
 sdk: streamlit
 sdk_version: 1.34.0
 app_file: app.py
