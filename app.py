@@ -50,8 +50,7 @@ st.image(open("assets/demo.png", "rb").read())
 
 st.markdown(
     """
-    So you want to remove an object in your photo? You don't need to learn photo editing skills.
-    **Just draw over the parts of the image you want to remove, then our AI will remove them.**
+    You don't have to worry about mastering photo editing techniques to remove an object from your photo. ** Simply mark over the areas you want to erase, and our AI will take care of the rest. **
     """
 )
 uploaded_file = st.file_uploader("Choose image", accept_multiple_files=False, type=["png", "jpg", "jpeg"])
