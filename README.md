@@ -3,7 +3,7 @@ title: Magic Eraser Tool
 emoji: ✏️📰
 colorFrom: indigo
 colorTo: yellow
-sdk: docker
+sdk: streamlit
 sdk_version: 1.34.0
 app_file: app.py
 pinned: false
