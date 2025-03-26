@@ -4,7 +4,6 @@ torchvision
 numpy
 opencv-python-headless
 matplotlib
-streamlit
 streamlit-drawable-canvas
 pyyaml
 tqdm
