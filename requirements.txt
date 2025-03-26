@@ -1,4 +1,5 @@
 torch
+streamlit==1.34.0
 torchvision
 numpy
 opencv-python-headless
