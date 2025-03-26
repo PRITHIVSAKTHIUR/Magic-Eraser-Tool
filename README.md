@@ -1,3 +1,6 @@
+> Download the model file and code here to run it locally. : https://huggingface.co/spaces/prithivMLmods/Magic-Eraser-Tool/tree/main
+> Supported Streamlit Version [ pip install streamlit==1.34.0 ]
+
 ![App Screenshot](assets/magic-eraser.png)  <!-- Replace with actual screenshot path -->
 
 # Magic Eraser Tool 🪄
