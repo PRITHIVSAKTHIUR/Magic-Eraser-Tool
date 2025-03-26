@@ -4,8 +4,6 @@
 
 Remove unwanted objects from your images with AI-powered inpainting!
 
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app/)  <!-- Replace with your actual deployment URL -->
-
 ## Features ✨
 
 - Simple brush-based interface to mark areas for removal
