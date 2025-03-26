@@ -20,8 +20,6 @@ license: creativeml-openrail-m
 
 ## 🔮MAGIC ERASER
 
-![alt text](assets/demo.png)
-
 ✏️Image Uploaded For Processing
 
 ![alt text](assets/1.png)
