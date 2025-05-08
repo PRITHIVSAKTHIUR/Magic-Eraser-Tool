@@ -1,4 +1,4 @@
-> Download the model file and code here to run it locally. : https://huggingface.co/spaces/prithivMLmods/Magic-Eraser-Tool/tree/main
+> Download the model file and code here to run it locally. : https://huggingface.co/spaces/prithivMLmods/Magic_Eraser/tree/main/assets
 
 
 > Supported Streamlit Version [ pip install streamlit==1.34.0 ]
